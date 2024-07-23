@@ -1,0 +1,55 @@
+$color-font: #33d ;
+$color-bg-default: #5B63B7;
+$color-bg-boxes: #FD3;
+$font-default: Arial, Helvetica, sans-serif;
+$font-size-default: 1.6rem;
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $color-bg-default;
+    font-family: $font-default;
+    font-size: 1.6rem;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+h2 {
+    margin-top: 4rem;
+}
+
+header,
+section,
+footer {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    max-width: 90vw;
+
+    &__button {
+        margin: 1rem;
+    }
+}
+
+#sobre {
+    background-color: white;
+    padding: 1rem;
+}
+
+// #produtos {
+
+// }
+
+@import 'vitrine'
