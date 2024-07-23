@@ -1,3 +1,3 @@
 # Exercício do Módulo
 
-- Rodas os comandos no terminar e verificar se está funcionando corretamente.
+- Rodar os comandos no terminar e verificar se está funcionando corretamente.
